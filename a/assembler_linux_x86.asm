@@ -1,4 +1,4 @@
-# nasm linux-x86.nasm -o linux-x86.o -f elf && ld linux-x86.o -m elf_i386 -o linux-x86
+; nasm assembler_linux_x86.asm -o linux-x86.o -f elf && ld linux-x86.o -m elf_i386 -o linux-x86
 
 section .data
 msg     db      "Hello World", 0xa
